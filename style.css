@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+}
+.heading {
+    font-size: 30px;
+    color:white ;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
+    background-color: powderblue;
+}
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.move {
+    float: left;
+}
+.move1 {
+    float: right;
+}
+p {
+    color:white ;
+    font-weight: bolder;
+    background-color: powderblue;
+}
+canvas {
+    width: 500px;
+    height: 500px;
+    border: powderblue 5px dotted ;
+    box-shadow: powderblue 5px 5px 20px;
+}
