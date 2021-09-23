@@ -35,12 +35,14 @@ function draw() {
     image(video, 0, 0, 500, 500);
     fill("pale violet");
     stroke("purple");
+    if (score_left>0.2){
     circle(leftwristx,leftwristy,20);
     innumber_leftwristy=Number(leftwristy);
     removed_decimals=floor(innumber_leftwristy);
     volume=removed_decimals/500;
     document.getElementById("volume").innerHTML="volume= "+volume;
     song.setVolume(volume);
+    }
 }
 function preload() {
     song = loadSound("Harry Potter Theme Song (1).mp3");
