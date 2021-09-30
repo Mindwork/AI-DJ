@@ -36,7 +36,8 @@ function draw() {
     image(video, 0, 0, 500, 500);
     fill("pale violet");
     stroke("purple");
-    if (score_left>0.2){
+    //if (score_left>0.2)
+    {
     circle(leftwristx,leftwristy,20);
     innumber_leftwristy=Number(leftwristy);
     removed_decimals=floor(innumber_leftwristy);
