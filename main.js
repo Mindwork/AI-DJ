@@ -3,6 +3,7 @@ leftwristx=0;
 leftwristy=0;
 rightwristx=0;
 rightwristy=0;
+score_left=0;
 function setup() {
     canvas = createCanvas(500, 500);
     video = createCapture(VIDEO);
